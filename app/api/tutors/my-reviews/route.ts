@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import dbConnect from "@/lib/db";
 import Review from "@/lib/models/Review";
+import User from "@/lib/models/User"; // Import the User model to register it
 import { verifyToken } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";

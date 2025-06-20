@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import dbConnect from "@/lib/db";
+import User from "@/lib/models/User"; // Import User model for relationship dependencies
 import Booking from "@/lib/models/Booking";
 import Review from "@/lib/models/Review";
 import { verifyToken } from "@/lib/auth";

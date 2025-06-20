@@ -4,6 +4,7 @@ import Booking from "@/lib/models/Booking";
 import { verifyToken } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
+import User from "@/lib/models/User";
 
 export async function GET(request: NextRequest) {
   try {
