@@ -84,7 +84,7 @@ const StudentDashboard = () => {
           </Card>
         </Link>
 
-        <Link href="/reviews">
+        <Link href="/messages">
           <Card className="cursor-pointer hover:shadow-lg transition-shadow duration-200 border-l-4 border-l-green-500">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
