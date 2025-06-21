@@ -215,8 +215,10 @@ const TutorDashboard = () => {
                   <MessageCircle className="h-6 w-6 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Messages</h3>
-                  <p className="text-sm text-gray-600">Chat with students</p>
+                  <h3 className="font-semibold text-gray-900">Ask AI </h3>
+                  <p className="text-sm text-gray-600">
+                    Explore new trends in teaching
+                  </p>
                 </div>
               </div>
             </CardContent>
